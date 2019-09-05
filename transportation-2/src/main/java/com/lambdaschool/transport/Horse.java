@@ -1,6 +1,6 @@
 package com.lambdaschool.transport;
 
-public class Horse implements  Vehicle, Animal
+public class Horse implements Vehicle, Animal
 
 {
     //fields - is the state of the object of a class.
@@ -53,7 +53,7 @@ public class Horse implements  Vehicle, Animal
         return "Grass";
     }
 
-    @Override
+
     public void setName(String name)
     {
         this.name = name;
